@@ -1,9 +1,12 @@
 ## PREREQISITES
-- Physionet data from: https://www.physionet.org/pn4/eegmmidb/
+- Physionet data 
+	- use the script `eegmmidb/download.sh` (requires wget) **OR**
+	- download from https://www.physionet.org/pn4/eegmmidb/
+	- adjust the file path in `util.py` to the location of the files in your system
 - Python 2 environment with:
 	- numpy, scipy, matplotlib
 	- tensorflow & keras
-	- pyedflib (for data input)
+	- [pyedflib](http://pyedflib.readthedocs.io/en/latest/) (for data input)
 
 
 ## USAGE
