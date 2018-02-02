@@ -51,7 +51,7 @@ def load_physionet_data(subject_id, num_classes=2, long_edge=False):
     X = np.zeros((n_runs, RUN_LENGTH, EEG_CHANNELS))
     events = []
 
-    base_path = '/home/hauke/Workspace/data/eegmmidb/S%03dR%02d.edf'
+    base_path = '/home/hauke/Workspace/cnn-eeg/eegmmidb/S%03dR%02d.edf'
     
     for i_run, current_run in enumerate(MI_RUNS):
         # load from file
