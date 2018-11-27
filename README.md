@@ -2,7 +2,7 @@
 
 This repository contains a CNN-based neural network model intended to classify motor imagery (MI) EEG data. It is developed using the [Physionet MI/ME](https://www.physionet.org/pn4/eegmmidb/) dataset. 
 
-## PREREQISITES
+## PREREQUISITES
 
 - Physionet data 
 	- use the script `eegmmidb/download.sh` (requires wget) **OR**
