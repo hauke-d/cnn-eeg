@@ -1,3 +1,6 @@
+# data files (should be downloaded)
+eegmmidb/*.edf
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
