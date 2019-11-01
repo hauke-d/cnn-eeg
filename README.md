@@ -22,3 +22,7 @@ Anaconda can be downloaded from: https://www.anaconda.com/download/
 
 The code represents a starting point for data preparation and training the neural network models.
 It does not provide methods for plotting/evaluation/visualization.
+
+**Note:** The code is no longer maintained and comes without warranty for correctness. It can be freely used, changed, and distributed. If it was helpful to your work, consider citing
+
+> Dose, H., Møller, J. S., Iversen, H. K., & Puthusserypady, S. (2018). An end-to-end deep learning approach to MI-EEG signal classification for BCIs. Expert Systems with Applications, 114, 532–542. https://doi.org/10.1016/j.eswa.2018.08.031
